@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}All Reviews - Edusaint{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">All School Reviews</h2>
+
+<table class="table table-dark table-striped table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>School</th>
+      <th>Reviewer</th>
+      <th>Rating</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for review in reviews %}
+      <tr>
+        <td>{{ review.id }}</td>
+        <td>{{ review.school_name }}</td>
+        <td>{{ review.reviewer_name }}</td>
+        <td>{{ review.rating }}</td>
+        <td>{{ review.comment }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
