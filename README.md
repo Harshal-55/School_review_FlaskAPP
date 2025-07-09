@@ -19,19 +19,19 @@ This is a Flask-based web application that allows users to submit and view schoo
 
 ## Project Structure
 
-$ school_review_app/
-├── app.py # Main Flask application
-├── config.py # DB configuration using dotenv
-├── .env # Environment variables (NOT committed to Git)
-├── reviews.sql # SQL file to create database and table
-├── requirements.txt # Python dependencies
-├── static/ # Optional custom CSS/JS
-├── templates/ # Jinja2 HTML templates
-│ ├── base.html # Base layout with navbar and styling
-│ ├── home.html # Landing page with buttons
-│ ├── add_review.html # Form to submit a new review
-│ └── reviews.html # Page displaying all reviews
-└── README.md # Project documentation (this file)
+$ school_review_app/ <br />
+├── app.py # Main Flask application <br /> 
+├── config.py # DB configuration using dotenv <br />
+├── .env # Environment variables (NOT committed to Git) <br />
+├── reviews.sql # SQL file to create database and table <br />
+├── requirements.txt # Python dependencies <br />
+├── static/ # Optional custom CSS/JS <br />
+├── templates/ # Jinja2 HTML templates <br />
+│ ├── base.html # Base layout with navbar and styling <br />
+│ ├── home.html # Landing page with buttons <br />
+│ ├── add_review.html # Form to submit a new review <br />
+│ └── reviews.html # Page displaying all reviews <br />
+└── README.md # Project documentation (this file) <br />
 
 
 ---
