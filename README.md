@@ -43,9 +43,7 @@ Follow these steps to get the app running locally:
 ### 1. Install Python Requirements
 
 Make sure you have Python 3.9+ and MySQL installed. Then run:
-
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### 2. Set Up .env File
 
@@ -59,15 +57,12 @@ MYSQL_DB=school_reviews
 Use the reviews.sql file to create the required database and table.
 
 Option A: Terminal
-```bash
-mysql -u root -p < reviews.sql
+    mysql -u root -p < reviews.sql
 
 Option B: MySQL Workbench
-Open reviews.sql, run it manually.
+    Open reviews.sql, run it manually.
 
 ### 4. Start your Flask app:
-
-```bash
-python app.py
-
+Terminal :
+    python app.py
 Then visit: http://127.0.0.1:5000
