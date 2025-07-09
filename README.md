@@ -19,7 +19,7 @@ This is a Flask-based web application that allows users to submit and view schoo
 
 ## Project Structure
 
-school_review_app/
+$ school_review_app/
 ├── app.py # Main Flask application
 ├── config.py # DB configuration using dotenv
 ├── .env # Environment variables (NOT committed to Git)
